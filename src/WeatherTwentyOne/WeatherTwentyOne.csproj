@@ -35,4 +35,7 @@
   <ItemGroup Condition="'$(TargetFramework)' == 'net6.0-android'">
     <AndroidEnvironment Include="Android\AndroidEnvironment.txt" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WeatherTwentyOne.Core\WeatherTwentyOne.Core.csproj" />
+  </ItemGroup>
 </Project>

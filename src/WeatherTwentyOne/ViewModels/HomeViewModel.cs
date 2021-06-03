@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using WeatherTwentyOne.Models.WeatherTwentyOne.Models;
+using WeatherTwentyOne.Core.Models;
 
 namespace WeatherTwentyOne.ViewModels
 {

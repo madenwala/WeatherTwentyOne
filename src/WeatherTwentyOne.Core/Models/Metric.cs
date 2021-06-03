@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace WeatherTwentyOne.Models
+﻿namespace WeatherTwentyOne.Core.Models
 {
-    public class Metric
+    public class Metric : BaseModel
     {
         public string Icon { get;set;}
         public string Title { get; set; }
